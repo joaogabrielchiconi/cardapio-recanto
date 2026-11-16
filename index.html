@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cardápio · Chacara Recanto dos Sonhos</title>
+<style>
+  :root { --fundo: #faf7f0; --texto: #26301f; --mudo: #6b7360; --verde: #2f6b3a; --linha: #e4dfd0; --cartao: #fff; }
+  @media (prefers-color-scheme: dark) { :root { --fundo: #151a12; --texto: #ecebe2; --mudo: #a3a994; --verde: #8fcf9a; --linha: #2c3326; --cartao: #1d2318; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fundo); color: var(--texto); font: 17px/1.4 system-ui, sans-serif; }
+  header { padding: 1.4em 16px .6em; text-align: center; }
+  h1 { margin: 0; font-size: 1.5rem; color: var(--verde); }
+  header p { margin: .2em 0 0; color: var(--mudo); font-size: .9rem; }
+  nav { position: sticky; top: 0; background: var(--fundo); border-bottom: 1px solid var(--linha); display: flex; gap: .5em; overflow-x: auto; padding: .6em 16px; }
+  nav a { flex: none; padding: .35em .9em; border: 1px solid var(--linha); border-radius: 999px; color: var(--texto); text-decoration: none; font-size: .9rem; background: var(--cartao); }
+  main { max-width: 680px; margin: 0 auto; padding: 0 16px 3em; }
+  section { margin-top: 1.6em; scroll-margin-top: 3.6em; }
+  h2 { font-size: 1.1rem; margin: 0 0 .4em; color: var(--verde); }
+  ul { list-style: none; margin: 0; padding: 0; background: var(--cartao); border: 1px solid var(--linha); border-radius: 10px; }
+  li { display: flex; justify-content: space-between; gap: 1em; padding: .7em .9em; border-top: 1px solid var(--linha); }
+  li:first-child { border-top: 0; }
+  li b { font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  footer { text-align: center; color: var(--mudo); font-size: .8rem; padding: 0 16px 2em; }
+</style>
+</head>
+<body>
+<header><h1>Chacara Recanto dos Sonhos</h1><p>Cardápio</p></header>
+<nav aria-label="Categorias"><a href="#c0">Refeição</a><a href="#c1">Porções</a><a href="#c2">Água</a><a href="#c3">Suco Natural</a><a href="#c4">Drink&#39;s</a><a href="#c5">Drink&#39;s S/álcool</a><a href="#c6">Refrigerante</a><a href="#c7">Cerveja</a><a href="#c8">Cerveja Lata</a><a href="#c9">Vinho</a><a href="#c10">Doses</a><a href="#c11">Sorvete</a><a href="#c12">Marmita</a><a href="#c13">Pescaria</a></nav>
+<main>
+<section id="c0"><h2>Refeição</h2><ul><li><span>Entrada Forró</span><b>R$ 20,00</b></li><li><span>Refeição 7-11 Anos</span><b>R$ 25,00</b></li><li><span>Refeição Inteira</span><b>R$ 50,00</b></li><li><span>Reserva Antecipada</span><b>R$ 55,00</b></li></ul></section>
+<section id="c1"><h2>Porções</h2><ul><li><span>Arroz Cumbuca</span><b>R$ 12,00</b></li><li><span>Bolinha de Queijo</span><b>R$ 39,90</b></li><li><span>Bolinho de Bacalhau</span><b>R$ 44,90</b></li><li><span>Bolinho de Carne Seca com Mandioca</span><b>R$ 44,90</b></li><li><span>Bolinho de Provolone com Bacon</span><b>R$ 44,90</b></li><li><span>Bolinho de Provolone com Costela</span><b>R$ 44,90</b></li><li><span>Bolinho de Provolone com Rúcula</span><b>R$ 44,90</b></li><li><span>Ceviche de Tilápia</span><b>R$ 39,90</b></li><li><span>Costelinha de Pacu</span><b>R$ 44,90</b></li><li><span>Dadinho de Tapioca com Queijo</span><b>R$ 32,90</b></li><li><span>Feijão Cumbuca</span><b>R$ 12,00</b></li><li><span>Filé de Porquinho</span><b>R$ 37,90</b></li><li><span>Frango a Passarinho</span><b>R$ 39,99</b></li><li><span>Fritas com Cheddar e Bacon</span><b>R$ 32,90</b></li><li><span>Fritas Sertaneja do Recanto</span><b>R$ 34,90</b></li><li><span>Iscas de Tilápia</span><b>R$ 59,90</b></li><li><span>Lambari</span><b>R$ 44,90</b></li><li><span>Mandioca Frita</span><b>R$ 14,99</b></li><li><span>Mini Pastel Carne</span><b>R$ 29,90</b></li><li><span>Mini Pastel Queijo</span><b>R$ 29,90</b></li><li><span>Panceta + Mandioca Frita</span><b>R$ 55,00</b></li><li><span>Pirão Cumbuca</span><b>R$ 15,00</b></li><li><span>Porção de Frios</span><b>R$ 39,90</b></li><li><span>Quibe com Queijo</span><b>R$ 44,90</b></li><li><span>Torresmo Pururuca</span><b>R$ 19,99</b></li><li><span>Torresmo Pururuca + Mandioca Frita:</span><b>R$ 30,00</b></li></ul></section>
+<section id="c2"><h2>Água</h2><ul><li><span>Água</span><b>R$ 4,00</b></li><li><span>Água com Gás</span><b>R$ 5,00</b></li></ul></section>
+<section id="c3"><h2>Suco Natural</h2><ul><li><span>Suco de Abacaxi com Hortelã 500ml</span><b>R$ 10,00</b></li><li><span>Suco de Laranja 500ml</span><b>R$ 12,00</b></li><li><span>Suco de Laranja com Morango 500ml</span><b>R$ 14,00</b></li><li><span>Suco de Maracujá 500ml</span><b>R$ 10,00</b></li></ul></section>
+<section id="c4"><h2>Drink&#39;s</h2><ul><li><span>Aperol Spritz</span><b>R$ 26,00</b></li><li><span>Batidinha (cachaça)</span><b>R$ 22,00</b></li><li><span>Batidinha (vodka)</span><b>R$ 22,00</b></li><li><span>Caipilé</span><b>R$ 25,00</b></li><li><span>Caipirinha (cachaça)</span><b>R$ 20,00</b></li><li><span>Caipiroska (vodka)</span><b>R$ 20,00</b></li><li><span>Campari 43</span><b>R$ 18,00</b></li><li><span>Lagoa Azul</span><b>R$ 18,00</b></li><li><span>Mojito</span><b>R$ 15,00</b></li><li><span>Morango Beats</span><b>R$ 20,00</b></li><li><span>Moscow Mule</span><b>R$ 20,00</b></li><li><span>Pina Colada</span><b>R$ 24,00</b></li><li><span>Sex On The Beach</span><b>R$ 16,00</b></li><li><span>Strawberry 43</span><b>R$ 18,00</b></li><li><span>Tequila Sunrise</span><b>R$ 24,00</b></li></ul></section>
+<section id="c5"><h2>Drink&#39;s S/álcool</h2><ul><li><span>Blue Lemonade</span><b>R$ 12,00</b></li><li><span>Pink Lemonade</span><b>R$ 12,00</b></li><li><span>Soda Italiana de Maça Verde</span><b>R$ 12,00</b></li></ul></section>
+<section id="c6"><h2>Refrigerante</h2><ul><li><span>Coca Cola</span><b>R$ 6,00</b></li><li><span>Coca Cola 1l</span><b>R$ 10,00</b></li><li><span>Coca Cola Zero</span><b>R$ 6,00</b></li><li><span>Copo com Gelo</span><b>R$ 1,00</b></li><li><span>Copo com Gelo e Limão</span><b>R$ 1,50</b></li><li><span>Fanta</span><b>R$ 6,00</b></li><li><span>Guarana Antarctica</span><b>R$ 6,00</b></li><li><span>H20h! Limoneto</span><b>R$ 8,00</b></li><li><span>Schwepps</span><b>R$ 6,00</b></li><li><span>Sprite</span><b>R$ 6,00</b></li></ul></section>
+<section id="c7"><h2>Cerveja</h2><ul><li><span>Amstel Ultra Long Neck</span><b>R$ 8,00</b></li><li><span>Antarctica 600ml</span><b>R$ 12,00</b></li><li><span>Heineken 600ml</span><b>R$ 16,00</b></li><li><span>Heineken Zero Long Neck</span><b>R$ 12,00</b></li><li><span>Original 600ml</span><b>R$ 14,00</b></li><li><span>Skol 600ml</span><b>R$ 12,00</b></li></ul></section>
+<section id="c8"><h2>Cerveja Lata</h2><ul><li><span>Antarctica Lata</span><b>R$ 6,00</b></li><li><span>Budweiser Zero Long Neck</span><b>R$ 10,00</b></li><li><span>Skol Lata</span><b>R$ 6,00</b></li></ul></section>
+<section id="c9"><h2>Vinho</h2><ul><li><span>Chopp de Vinho 600ml</span><b>R$ 14,00</b></li><li><span>Vinho Granja Tonatto Tinto Suave</span><b>R$ 30,00</b></li><li><span>Vinho Manosso Tinto Suave</span><b>R$ 50,00</b></li></ul></section>
+<section id="c10"><h2>Doses</h2><ul><li><span>Cú de Burro 330ml</span><b>R$ 3,00</b></li><li><span>Dose Campari 100ml</span><b>R$ 15,00</b></li><li><span>Dose Cavalo Branco</span><b>R$ 7,00</b></li><li><span>Dose Licor de Menta</span><b>R$ 7,90</b></li><li><span>Dose Licor de Pêssego</span><b>R$ 7,90</b></li><li><span>Dose Red Label</span><b>R$ 12,00</b></li><li><span>Dose Velho Barreiro</span><b>R$ 2,50</b></li><li><span>Taça Vinho Granja Tonatto Tinto Suave (150ml)</span><b>R$ 10,00</b></li><li><span>Taça Vinho Manosso (150ml)</span><b>R$ 12,00</b></li></ul></section>
+<section id="c11"><h2>Sorvete</h2><ul><li><span>Picolé Crs</span><b>R$ 3,00</b></li><li><span>Picolé Ituzinho</span><b>R$ 4,00</b></li></ul></section>
+<section id="c12"><h2>Marmita</h2><ul><li><span>Marmita Grande</span><b>R$ 30,00</b></li><li><span>Marmita Média</span><b>R$ 25,00</b></li></ul></section>
+<section id="c13"><h2>Pescaria</h2><ul><li><span>Isca Massa Banana e Mel</span><b>R$ 8,00</b></li><li><span>Isca Salsicha Copo Grande</span><b>R$ 5,00</b></li><li><span>Linha 100m</span><b>R$ 20,00</b></li><li><span>Pescaria Pesque &amp; Pague</span><b>R$ 30,00</b></li><li><span>Pescaria Pesque &amp; Solte</span><b>R$ 20,00</b></li></ul></section>
+</main>
+<footer>Preços de 16/11/2026, sujeitos a alteração.</footer>
+</body>
+</html>
